@@ -6,8 +6,7 @@ Before you run it, check that you have these dependencies installed on your mach
 - Numpy
 - Tensorflow
 
-Next, you need to download two .tgz files that will unpack Stanford's Cars Dataset into the main folder, "Final".
-Please see the link attached to the submission's comment. 
+If you wish to run the model fully, you will have to unpack the .tgz devkit which is quite large. It contains the Stanford Cars Dataset of 16,185 images of cars and 197 classes. 
 
 Running the program:
 - cd to folder ".../Final" to ensure you are in the right place
