@@ -1,0 +1,2 @@
+This project uses MPI within C to calculate the value of pi using a Monte Carlo approximation. Although not the most mathematically justified means of calculating pi, it is highly parallelizable and a great tool for benchmarking performance. This project comes with a ready-to-run executable, pi_parallel. 
+If your machine or cluster has MPI ready, the executable can be ran by calling:  mpiexec -np <num_tasks> ./pi_parallel <num_tosses>, where tasks is the number of cores/compute units the program will use and num_tosses is the accuracy threshold. 
