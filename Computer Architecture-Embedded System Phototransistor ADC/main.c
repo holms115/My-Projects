@@ -4,7 +4,6 @@
 #include <stdlib.h>
 
 #include "gpio_defs.h"
-#include "LEDs.h"
 #include "switches.h"
 #include "user_defs.h"
 
