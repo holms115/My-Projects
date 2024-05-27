@@ -1,3 +1,8 @@
+//@author: Benett Holmstrom
+//@email: benettholmstrom@gmail.com
+// This project is an analog-to-digital converter (ADC), which translates an analog signal derived from an
+// IR detector and phototransistor into a digital signal usable by a computer. This project was designed to be ran
+// on an MKV11Z FPGA with the IR and phototransistor components wired on a separate board.
 #include <MKV11Z7.h>
 #include <stdio.h>
 #include <time.h>
